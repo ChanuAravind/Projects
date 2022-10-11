@@ -1,0 +1,64 @@
+Context
+
+Apollo Hospitals was established in 1983, renowned as the architect of modern healthcare in India. As the nation's first corporate hospital, Apollo Hospitals is acclaimed for pioneering the private healthcare revolution in the country.
+
+
+As a data scientist working at Apollo 24/7, the ultimate goal is to tease out meaningful and actionable insights from Patient-level collected data.
+
+You can help Apollo hospitals to be more efficient, to influence diagnostic and treatment processes, to map the spread of a pandemic.
+
+
+One of the best examples of data scientists making a meaningful difference at a global level is in the response to the COVID-19 pandemic, where they have improved information collection, provided ongoing and accurate estimates of infection spread and health system demand, and assessed the effectiveness of government policies.
+
+How can you help here?
+
+The company wants to know:
+
+• Which variables are significant in predicting the reason for hospitalization for different regions
+
+• How well some variables like viral load, smoking, Severity Level describe the hospitalization charges
+
+Dataset: Dataset_Link
+
+Column Profiling
+
+Age: This is an integer indicating the age of the primary beneficiary (excluding those above 64 years, since they are generally covered by the government).
+Sex: This is the policy holder's gender, either male or female
+Viral Load: Viral load refers to the amount of virus in an infected person's blood
+Severity Level: This is an integer indicating how severe the patient is
+Smoker: This is yes or no depending on whether the insured regularly smokes tobacco.
+Region: This is the beneficiary's place of residence in Delhi, divided into four geographic regions - northeast, southeast, southwest, or northwest
+Hospitalization charges: Individual medical costs billed to health insurance
+Concept Used:
+
+Graphical and Non-Graphical Analysis
+2-sample t-test: testing for difference across populations
+ANOVA
+Chi-square
+
+Outline:
+
+Define Problem Statement and perform Exploratory Data Analysis 
+Definition of problem (as per given problem statement with additional views)
+Observations on shape of data, data types of all the attributes, conversion of categorical attributes to 'category' (if required), missing value detection, statistical summary.
+Univariate Analysis (distribution plots of all the continuous variable(s) barplots/countplots of all the categorical variables)
+Bivariate Analysis (Relationships between important variables such as hospitalization charges with region, smoker, viral load etc)
+Illustrate the insights based on EDA
+Comments on range of attributes, outliers of various attributes
+Comments on the distribution of the variables and relationship between them
+Comments for each univariate and bivariate plots
+Missing values treatment & Outlier treatment 
+Hypothesis Testing :
+Prove (or disprove) that the hospitalization charges of people who do smoking are greater than those who don't?
+Prove (or disprove) with statistical evidence that the viral load of females is different from that of males 
+Is the proportion of smoking significantly different across different regions? 
+Is the mean viral load of women with 0 Severity level, 1 Severity level, and 2 Severity level the same? Explain your answer with statistical evidence (10 Points)
+What good looks like (distribution of 10 points):
+Visual analysis 
+Hypothesis formulation 
+Select the appropriate test 
+Check test assumptions 
+Find the p-value
+Conclusion based on the p-value
+Business Insights  - Should include patterns observed in the data along with what you can infer from it.
+Recommendations - Actionable items for business. No technical jargon. No complications. Simple action items that everyone can understand.
